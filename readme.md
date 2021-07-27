@@ -4,6 +4,7 @@ https://en.wikipedia.org/wiki/IOS_version_history
 https://api.github.com/repos/WebKit/WebKit/git/refs/tags
 https://en.wikipedia.org/wiki/Safari_version_history
 https://chromium.googlesource.com/chromium/src/+refs
+https://en.wikipedia.org/wiki/Android_version_history
 ```
 
 | os      | browser | sample                                                       |
