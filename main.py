@@ -29,3 +29,11 @@ def get_ua_android_chrome():
     engine = "AppleWebKit/{} (KHTML, like Gecko)".format(choice(webkit))
     browser = "Chrome/{} Mobile Safari/{}".format(choice(chrome), choice(safari_build))
     return f"Mozilla/5.0 {os} {engine} {browser}"
+
+
+ua = [get_ua_ios_safari, get_ua_ios_chrome, get_ua_android_chrome]
+
+
+def get_ua():
+    f = choice(ua)
+    return f()
