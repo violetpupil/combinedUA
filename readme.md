@@ -1,4 +1,8 @@
 ```
+pip install combinedUA
+```
+
+```
 http://useragentstring.com
 https://en.wikipedia.org/wiki/IOS_version_history
 https://api.github.com/repos/WebKit/WebKit/git/refs/tags
