@@ -1,13 +1,14 @@
 from random import choice
 
-from util import read_file
+from util import read_file, get_base_dir
 
-ios = read_file("./db/ios.txt").splitlines()
-safari_build = read_file("./db/safari_build.txt").splitlines()
-safari_version = read_file("./db/safari_version.txt").splitlines()
-webkit = read_file("./db/webkit.txt").splitlines()
-chrome = read_file("./db/chrome.txt").splitlines()
-android = read_file("./db/android.txt").splitlines()
+base_dir = get_base_dir(__file__)
+ios = read_file(base_dir + "/db/ios.txt").splitlines()
+safari_build = read_file(base_dir + "/db/safari_build.txt").splitlines()
+safari_version = read_file(base_dir + "/db/safari_version.txt").splitlines()
+webkit = read_file(base_dir + "/db/webkit.txt").splitlines()
+chrome = read_file(base_dir + "/db/chrome.txt").splitlines()
+android = read_file(base_dir + "/db/android.txt").splitlines()
 
 
 def get_ua_ios_safari():
