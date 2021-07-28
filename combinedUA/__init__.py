@@ -1,6 +1,6 @@
 from random import choice
 
-from src.util import read_file
+from util import read_file
 
 ios = read_file("./db/ios.txt").splitlines()
 safari_build = read_file("./db/safari_build.txt").splitlines()
