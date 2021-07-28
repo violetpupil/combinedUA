@@ -1,6 +1,6 @@
 from random import choice
 
-from util import read_file, get_base_dir
+from combinedUA.util import get_base_dir, read_file
 
 base_dir = get_base_dir(__file__)
 ios = read_file(base_dir + "/db/ios.txt").splitlines()
